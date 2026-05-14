@@ -1,5 +1,5 @@
 # G2G Matcher: Viral Genomic Data Integration Tool 
-G2G Matcher is a Python-based framework designed to resolve data fragmentation and redundancy between major genomic repositories. By employing a hierarchical five-stage pipeline, the tool identifies duplicate biological samples that are often "double-counted" due to inconsistent metadata or identifiers.  
+G2G Matcher is a Python-based framework designed to resolve data fragmentation and redundancy between GenBank and GISAID genomic repositories. By employing a hierarchical five-stage pipeline, the tool identifies duplicate biological samples that are often "double-counted" due to inconsistent metadata or identifiers.  
 
 ## Key Features:
 - Hierarchical Matching: Combines exact FASTA identity, Fuzzy string matching (Levenshtein distance) for isolates, and LCDL (Location, Date, Length) metadata reconciliation.  
