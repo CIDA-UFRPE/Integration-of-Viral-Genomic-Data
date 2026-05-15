@@ -5,4 +5,4 @@ G2G Matcher is a Python-based framework designed to resolve data fragmentation a
 - Hierarchical Matching: Combines exact FASTA identity, Fuzzy string matching (Levenshtein distance) for isolates, and LCDL (Location, Date, Length) metadata reconciliation.  
 - NLP-Powered Preprocessing: Uses custom Regex to standardize and extract isolate identifiers from unstructured GenBank titles.
 - Phylogenetic Quality Control: Automatically filters out experimental artifacts, vaccine-derived strains, and laboratory-adapted lineages to ensure biological relevance.
-- Conflict Resolution: Assigns high-confidence integration statuses (MATCH, POTENTIAL, UNIQUE) to facilitate automated or expert-guided curation.
+- Conflict Resolution: Assigns high-confidence integration statuses to facilitate automated or expert-guided curation.
